@@ -9,5 +9,8 @@ public class Main {
         catWhiskas.run(250);
         catWhiskas.swim(5);
 
+        System.out.println("Total animals: " + Animal.totalAnimals);
+        System.out.println("Total dogs: " + Dog.totalDogs);
+        System.out.println("Total cats: " + Cat.totalCats);
     }
 }

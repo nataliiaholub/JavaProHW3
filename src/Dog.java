@@ -1,5 +1,12 @@
 public class Dog extends Animal{
 
+    static int totalDogs = 0;
+
+    Dog(){
+        super();
+        totalDogs++;
+    }
+
     @Override
     public void run(int length) {
         if (length <= 500) {

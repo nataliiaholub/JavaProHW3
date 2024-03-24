@@ -1,5 +1,12 @@
 public class Cat extends Animal{
 
+    static int totalCats = 0;
+
+    Cat(){
+        super();
+        totalCats++;
+    }
+
     @Override
     public void run(int length) {
         if (length <= 200) {
